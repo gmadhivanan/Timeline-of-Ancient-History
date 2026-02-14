@@ -46,6 +46,7 @@ strokeWeight(0);
   text(split[0],ofs-30,canvasY-120,75,75)
   ofs=ofs+100
 }
+  text("Hover over a date to learn more", 630,50,100,100)
 
 if(mouseX<100){startpos=startpos+10}
 else if(mouseX>canvasX-100){startpos=startpos-10}
