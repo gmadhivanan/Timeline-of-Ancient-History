@@ -2,6 +2,7 @@
 
 ## Data Source
 The data was acquired from [this github page](https://github.com/sharmadhiraj/free-json-datasets/blob/master/docs/history-culture/timeline_of_ancient_history.jsonhttps://github.com/sharmadhiraj/free-json-datasets/blob/master/docs/history-culture/timeline_of_ancient_history.json). It is a simple json that contains a data object with multiple strings. Each string has a date and a description. In an ideal world, each data element would have a separate property for date, description, as well as rough lat/long.
+I have not modified the dataset in anyway. This dataset is obviously not exhaustive, so there are an infinite amount of significant events that are not included.
 
 ## The Code
 
@@ -54,5 +55,5 @@ ofs=startpos
 }
 ```
 ## The Result
-[ The resulting output](https://editor.p5js.org/gmadhivanan/full/RQ_6lGWbD) is a series of circles that scrolls as you move to the edge of the canvas. If you hover over a circle a block of text pops up that provides a description of what happened on that date that is defined in the circle. My intent was to create something that allows for an easier method to understand when certain events happened in history. Having to slowly scroll through the events allows for that scope to be more easily understood. The reason why I would love for the lat/long data to be included is that I could then include a globe that would show the location of the event. 
+[ The resulting output](https://editor.p5js.org/gmadhivanan/full/RQ_6lGWbD) is a series of circles that scrolls as you move to the edge of the canvas. If you hover over a circle a block of text pops up that provides a description of what happened on that date that is defined in the circle. My intent was to create something that allows for an easier method to understand when certain events happened in history. Having to slowly scroll through the events allows for that scope to be more easily understood. The reason why I would love for the lat/long data to be included is that I could then put an indicator on the map as to where the event actually took place.
 
