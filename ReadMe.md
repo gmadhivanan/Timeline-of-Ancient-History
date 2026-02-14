@@ -10,8 +10,14 @@ let startpos=0
 let ofs=0;
 let canvasX=800
 let canvasY=400
+let img;
+function preload() {
+  img = loadImage('World.svg');
+}
 function setup() {
+  
   background(0)
+  
   createCanvas(canvasX, canvasY);
   // load json data and store in variable test
   test = loadJSON('timeline.json')
@@ -19,6 +25,7 @@ function setup() {
 }
 function draw() {
   background("#F4F0D2")
+  image(img, 0, 0,200,100);
   data=test.data
   textSize(32);
   text("Timeline of Ancient History",200,100)
@@ -42,7 +49,7 @@ strokeWeight(0);
 if(mouseX<100){startpos=startpos+10}
 else if(mouseX>canvasX-100){startpos=startpos-10}
 ofs=startpos
-
+//console.log(mouseX)
 
 }
 ```
