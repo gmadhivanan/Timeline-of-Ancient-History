@@ -47,5 +47,5 @@ ofs=startpos
 }
 ```
 ## The Result
-[ The resulting output](https://editor.p5js.org/gmadhivanan/full/RQ_6lGWbD) is a series of circles that scrolls as you move to the edge of the canvas. If you hover over a circle a block of text pops up that provides a description of what happened on that date that is defined in the circle.
+[ The resulting output](https://editor.p5js.org/gmadhivanan/full/RQ_6lGWbD) is a series of circles that scrolls as you move to the edge of the canvas. If you hover over a circle a block of text pops up that provides a description of what happened on that date that is defined in the circle. My intent was to create something that allows for an easier method to understand when certain events happened in history. Having to slowly scroll through the events allows for that scope to be more easily understood. The reason why I would love for the lat/long data to be included is that I could then include a globe that would show the location of the event. 
 
